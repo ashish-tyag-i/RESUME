@@ -9,7 +9,6 @@ body {
     color: white;
     font-family: 'Open Sans', sans-serif;
 }
-
 header {
     color:white;
     border-radius: 5px;
@@ -26,19 +25,9 @@ footer{
     margin: auto;
     width: max-content;
     border-radius: 5px;
-    opacity: 50%;
+    opacity: 100%;
     color: white;
-    background: #000000;
-}
-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-nav li {
-    display: inline-block;
-    margin: 0 10px;
-    transition: transform 0.1s ease-in-out, box-shadow 0.1s ease-in-out;
+
 }
 a {
     color: #ffffff;
@@ -64,8 +53,6 @@ button:hover {
     margin: auto 25px auto auto;
     border-radius: 15px;
     position: relative;
-    width: 400px;
-    height: 250px;
     box-shadow: 0 0 100px rgba(0, 0, 0, 0.3);
     transition: transform 0.05s ease-in-out, box-shadow 0.05s ease-in-out;
 }
@@ -88,15 +75,12 @@ button:hover {
 .img:hover {
     transform: scale(1);
 }
-/* Hide the dropdown content by default */
 .dropdown-content {
     opacity: 100%;
     display: none;
     position: absolute;
     right : 0;
 }
-
-/* Style the dropdown button */
 .dropdown-btn {
     opacity: 100%;
     color: white;
@@ -105,8 +89,6 @@ button:hover {
     position: absolute;
     right: 5px;
 }
-
-/* Style the dropdown content links */
 .dropdown-content a {
     opacity: 100%;
     color: rgb(255, 255, 255);
@@ -114,8 +96,6 @@ button:hover {
     text-decoration: none;
     display: block;
 }
-
-/* Show the dropdown content when the dropdown button is hovered over */
 .dropdown:hover .dropdown-content {
     display: block;
 }
@@ -123,12 +103,10 @@ button:hover {
     display: inline-block;
     vertical-align: top;
 }
-
 .img-container {
     width: relative;
     height: relative;
 }
-
 .text-container {
     display: inline-block;
     width: relative;
