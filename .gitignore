@@ -1,4 +1,4 @@
 /.idea
-node_modules
 package-lock.json
-package.json
+WebstormProjects\RESUME\package.json
+WebstormProjects\RESUME\node_modules
