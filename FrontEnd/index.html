@@ -1,14 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Ashish Tyagi's Portfolio</title>
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="mediaqueries.css" />
-</head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-F1XHTM0WRS"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
+    gtag('config', 'G-F1XHTM0WRS');
+  </script>
+</head>
 <body>
   <nav id="desktop-nav">
     <div class="logo">Ashish Tyagi</div>
@@ -204,7 +211,8 @@
           </div>
           <h2 class="experience-sub-title project-title">Project One</h2>
           <div class="btn-container">
-            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/ashish-tyag-i/RESUME.git'">
+            <button class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/ashish-tyag-i/RESUME.git'">
               Github
             </button>
             <button class="btn btn-color-2 project-btn" onclick="location.href=''">
@@ -218,7 +226,8 @@
           </div>
           <h2 class="experience-sub-title project-title">Project Two</h2>
           <div class="btn-container">
-            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/ashish-tyag-i/WeatherLY.git'">
+            <button class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/ashish-tyag-i/WeatherLY.git'">
               Github
             </button>
           </div>
@@ -263,5 +272,4 @@
     });
   </script>
 </body>
-
 </html>
