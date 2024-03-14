@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,7 +9,7 @@
   <link rel="stylesheet" href="mediaqueries.css" />
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-F1XHTM0WRS"></script>
-  <script>
+  <script>//Analytics
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
@@ -16,8 +17,9 @@
     gtag('config', 'G-F1XHTM0WRS');
   </script>
 </head>
+
 <body>
-  <nav id="desktop-nav">
+  <nav id="desktop-nav"><!--navigation bar-->
     <div class="logo">Ashish Tyagi</div>
     <div>
       <ul class="nav-links">
@@ -28,7 +30,7 @@
       </ul>
     </div>
   </nav>
-  <nav id="hamburger-nav">
+  <nav id="hamburger-nav"><!--nav_menu-->
     <div class="logo">Ashish Tyagi</div>
     <div class="hamburger-menu">
       <div class="hamburger-icon" onclick="toggleMenu()">
@@ -44,20 +46,17 @@
       </div>
     </div>
   </nav>
-  <section id="profile">
-    <div class="section__pic-container">
-      <img class="prof-img" src="./assets/profile.jpg" alt="Ashish Tyagi profile picture" />
-    </div>
+  <section id="profile"><!--Profile Section-->
     <div class="section__text">
       <p class="section__text__p1">Hello, I'm</p>
       <h1 class="title">Ashish Tyagi</h1>
-      <span id="element">
+      <span id="element"><!--typed.js animation input-->
 
       </span>
 
       <div class="btn-container">
         <button class="btn btn-color-2"
-          onclick="window.open('https://drive.google.com/file/d/1reKMdjbaL5cS4dhnfjtvA602M_WY-FNU/view?usp=drive_link')">
+          onclick="window.open('https://drive.google.com/file/d/1ggVOwmcfXyrhS79AeVJG3i-mV2stBctw/view?usp=sharing')">
           Download CV
         </button>
         <button class="btn btn-color-1" onclick="location.href='./#contact'">
@@ -72,25 +71,26 @@
       </div>
     </div>
   </section>
-  <section id="about">
+  <section id="about"><!--About Section-->
     <p class="section__text__p1">Get To Know More</p>
     <h1 class="title">About Me</h1>
     <div class="section-container">
-      <div class="section__pic-container">
-        <img src="./assets/profile1.jpg" alt="Profile picture" class="about-pic" />
-      </div>
+      
       <div class="about-details-container">
 
         <div class="about-containers">
+          <div class ="details-container">
           Enthusiastic junior developer including full-stack development, front-end development, and back-end
           development. Proven ability to design, develop, and test web applications using a variety of programming
-          languages and technologies, including Python, JavaScript, HTML, CSS, and SQL. Strong problem-solving and
+          languages and technologies, including Python, JavaScript, HTML, CSS,SQL,ReactJS,MERN Stack and NodeJS. Strong
+          problem-solving and
           analytical skills, with the ability to learn quickly and adapt to new challenges.
-          <div class="details-container">
-            <img src="./assets/education.png" alt="Education icon" class="icon" />
-            <h3>Education</h3>
-            <p>Bachelor of Technology, <br /> Computer Science</p>
-          </div>
+          
+        </div>
+        <div class="education-details-container">
+          <img src="./assets/education.png" alt="Education icon" class="icon" />
+          <h3>Education</h3>
+          <p>Bachelor of Technology, <br /> Computer Science</p>
         </div>
         <div class="text-container">
           <p>
@@ -101,7 +101,7 @@
     </div>
     <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
   </section>
-  <section id="experience">
+  <section id="experience"><!--Experience Section-->
     <p class="section__text__p1">Explore My</p>
     <h1 class="title">Skills</h1>
     <div class="experience-details-container">
@@ -128,6 +128,13 @@
               <div>
                 <h3>JavaScript</h3>
                 <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Java</h3>
+                <p>Experienced</p>
               </div>
             </article>
             <article>
@@ -173,32 +180,33 @@
               </div>
             </article>
           </div>
-          <div class="experience-details-container"><div class="about-containers">
-            <div class="details-container">
-              <h2 class="experience-sub-title"></h2>
-              <div class="article-container">
-            <h2 class="experience-sub-title">Version Control</h2>
-            <article>
-              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-              <div>
-                <h3>Git</h3>
-                <p>Intermediate</p>
+          <div class="experience-details-container">
+            <div class="about-containers">
+              <div class="details-container">
+                <h2 class="experience-sub-title"></h2>
+                <div class="article-container">
+                  <h2 class="experience-sub-title">Version Control</h2>
+                  <article>
+                    <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                    <div>
+                      <h3>Git</h3>
+                      <p>Experienced</p>
+                    </div>
+                  </article>
+                  <article>
+                    <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                    <div>
+                      <h3>Github</h3>
+                      <p>Experienced</p>
+                    </div>
+                  </article>
+                </div>
               </div>
-            </article>
-            <article>
-              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-              <div>
-                <h3>Github</h3>
-                <p>Intermediate</p>
-              </div>
-            </article>
+            </div>
           </div>
-        </div>
-      </div>
-    </div>
-    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
+          <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
   </section>
-  <section id="projects">
+  <section id="projects"><!--Projects-->
     <p class="section__text__p1">Browse My Recent</p>
     <h1 class="title">Projects</h1>
     <div class="experience-details-container">
@@ -209,10 +217,11 @@
           </div>
           <h2 class="experience-sub-title project-title">Project One</h2>
           <div class="btn-container">
-            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/ashish-tyag-i/RESUME.git'">
+            <button class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/ashish-tyag-i/RESUME.git'">
               Github
             </button>
-            <button class="btn btn-color-2 project-btn" onclick="location.href=''">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.ashishtyagi.online/'">
               Live Demo
             </button>
           </div>
@@ -232,7 +241,7 @@
       </div>
       <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
   </section>
-  <section id="contact">
+  <section id="contact"><!--Contact Section-->
     <p class="section__text__p1">Get in Touch</p>
     <h1 class="title">Contact Me</h1>
     <div class="contact-info-upper-container">
@@ -262,11 +271,12 @@
   </footer>
   <script src="script.js"></script>
   <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-  <script>
+  <script>//Typed.js Animation
     var typed = new Typed('#element', {
       strings: ['<p class="section__text__p2">Frontend Developer</p>', '<p class="section__text__p2">FullStack Developer</p>', '<p class="section__text__p2">Application Developer</p>'],
       typeSpeed: 50,
     });
   </script>
 </body>
+
 </html>
